@@ -43,6 +43,11 @@ def genwordcloud(movie):
     w.to_file('movie.png')
     image = w.to_image()
     image.show()
+    
+ @app.route('/')
+def index():
+    print 'Hello world'
+    return
 
 if __name__ == '__main__':
     app.run(debug= True)

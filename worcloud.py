@@ -40,7 +40,7 @@ def genwordcloud(movie):
 
     w = WordCloud(background_color="black", max_words=50, prefer_horizontal=0.5, scale=3)  # ,mask=edu_mask)
     w.generate(no_urls_no_tags)
-    w.to_file('movie.png')
+   # w.to_file('movie.png')
     image = w.to_image()
     image.show()
     

@@ -1,16 +1,14 @@
-import flask from Flask
-
-'''
 from tweepy import OAuthHandler
 from tweepy import API
 from tweepy import Cursor
+import flask from Flask
 import json
 import pandas as pd
 #from scipy.misc import imread
 from wordcloud import WordCloud, STOPWORDS, ImageColorGenerator
 
 app = Flask(__name__)
-
+'''
 @app.route('/<string:movie>')
 def genwordcloud(movie):
     CONSUMER_KEY = 'RPZlYpV6oRbgr5QSQGNB6Ry1k'

@@ -5,6 +5,10 @@ app = Flask(__name__)
 def hello_world():
   return 'Hello, World!'
 
+@app.route('/test')
+def test_route():
+  return 'Hello, World tested!'
+
 '''
 @app.route('/<string:movie>')
 def genwordcloud(movie):

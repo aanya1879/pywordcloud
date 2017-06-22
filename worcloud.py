@@ -1,3 +1,5 @@
+import flask from Flask
+
 '''
 from tweepy import OAuthHandler
 from tweepy import API
@@ -6,7 +8,7 @@ import json
 import pandas as pd
 #from scipy.misc import imread
 from wordcloud import WordCloud, STOPWORDS, ImageColorGenerator
-from flask import Flask
+
 app = Flask(__name__)
 
 @app.route('/<string:movie>')

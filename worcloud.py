@@ -45,7 +45,7 @@ def genwordcloud(movie):
     image.show()
     
  @app.route('/')
-def index():
+ def index():
     return 'Hello world'
 
 if __name__ == '__main__':

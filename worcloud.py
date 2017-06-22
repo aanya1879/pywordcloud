@@ -46,8 +46,7 @@ def genwordcloud(movie):
     
  @app.route('/')
 def index():
-    print 'Hello world'
-    return
+    return 'Hello world'
 
 if __name__ == '__main__':
     app.run(debug= True)

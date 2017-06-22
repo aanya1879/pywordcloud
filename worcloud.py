@@ -1,3 +1,4 @@
+'''
 from tweepy import OAuthHandler
 from tweepy import API
 from tweepy import Cursor
@@ -43,6 +44,7 @@ def genwordcloud(movie):
    # w.to_file('movie.png')
     image = w.to_image()
     image.show()
+ '''
     
  @app.route('/')
  def index():

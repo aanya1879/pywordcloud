@@ -5,7 +5,7 @@ app = Flask(__name__)
 def hello_world():
   return 'Hello, Azure!'
 
-@app.route('/test')
+@app.route('/test', methods=['GET'])
 def test_route():
   return 'Hello, World tested!'
 
